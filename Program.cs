@@ -13,7 +13,7 @@ namespace CSharp_TranslateSample
         static void Main(string[] args)
         {
             TranslateAsync().Wait();
-            Console.ReadKey();
+            Console.ReadKey(TH);
         }
 
         /// Demonstrates getting an access token and using the token to translate.
