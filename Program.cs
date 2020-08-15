@@ -8,12 +8,12 @@ namespace CSharp_TranslateSample
 {
     class Program
     {
-        private const string SubscriptionKey = "your subscription key";   //Enter here the Key from your Microsoft Translator Text subscription on http://portal.azure.com
+        private const string SubscriptionKey = "";   //Enter here the Key from your Microsoft Translator Text subscription on http://portal.azure.com
 
         static void Main(string[] args)
         {
             TranslateAsync().Wait();
-            Console.ReadKey(TH);
+            Console.ReadKey();
         }
 
         /// Demonstrates getting an access token and using the token to translate.
